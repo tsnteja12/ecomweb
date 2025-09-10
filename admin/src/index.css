@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+    font-family: Outfit ;
+}
+
+select,input,textarea{
+    border: 1px solid #c2c2c2;
+    outline-color: grey ;
+    border-radius: 4px;
+}
+
+.active{
+    background-color: lightgrey;
+    border-color: white;
+}
